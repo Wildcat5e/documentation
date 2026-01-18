@@ -7,3 +7,5 @@ This repo is for documentation.
 ## [Installation](/programming/installation.md)
 
 ## [Commands](/programming/commands.md)
+
+## [Field Information](/programming/field-info.md)
