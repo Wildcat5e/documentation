@@ -2,13 +2,13 @@
 
 This repo is for documentation.
 
-# Programming
+## Programming
 
-## [Installation](/programming/installation.md)
+### [Installation](/programming/installation.md)
 
-## [Commands](/programming/commands.md)
+### [Commands](/programming/commands.md)
 
-## [Field Information](/programming/field-info.md)
+### [Field Information](/programming/field-info.md)
 
 <br><br><br>
 
