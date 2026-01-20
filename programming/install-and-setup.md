@@ -8,6 +8,25 @@ Follow instuctions in the [WPILib docs](https://docs.wpilib.org/en/stable/docs/z
 
 If you're setting up WPILib on your personal Linux PC then you could use your existing VS Code or VS Codium installation. Just install WPILib and select everything and then select "Skip and don’t use VS Code." Then you'll need to install the WPILib extension from the extensions marketplace built into VS Code or manually install the extension (likely named `vscode-wpilib-XXXX-`) from the `/home/yourname/wpilib/year/vsCodeExtensions/` directory in the case of VS Codium. (DO NOT use the outdated VS Codium extension.)
 
+## Formatter and VS Code Settings
+
+### Formatter
+
+If you set up a custom style file for formatting, if it is its own file in `.vscode/` it'll be ignored by default. Edit your `.gitignore` file and remove/comment out the line that looks like this:
+
+```json
+### VisualStudioCode ###
+.vscode/*
+```
+
+### Extensions
+
+Right CLick extensions and hit "Add to Workspace Recommendations" and it'll add the extension ID to `.vscode/extensions.json` to easily reinstall.
+
+### Settings
+
+If you change VS Code settings that you want anyone editing the code to have applied (such as format on save and 4 space indent), make sure you select Workspace at the top of VS Code settings.
+
 ## VisualVM
 
 Follow the [WPILib docs](https://docs.wpilib.org/en/stable/docs/software/advanced-gradlerio/profiling-with-visualvm.html) but take note of the information below:

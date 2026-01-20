@@ -4,7 +4,7 @@ This repo is for documentation.
 
 ## Programming
 
-### [Installation](/programming/installation.md)
+### [Install and Setup](/programming/install-and-setup.md)
 
 ### [Commands](/programming/commands.md)
 
