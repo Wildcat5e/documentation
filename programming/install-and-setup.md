@@ -27,6 +27,16 @@ Right CLick extensions and hit "Add to Workspace Recommendations" and it'll add 
 
 If you change VS Code settings that you want anyone editing the code to have applied (such as format on save and 4 space indent), make sure you select Workspace at the top of VS Code settings.
 
+## Gradle Settings
+
+After updating WPILib make sure to update the version in the `build.gradle` file (in VS Code there'll usually be a popup to update the project).
+
+VisualVM gradle settings are in their docs. [VisualVM setup](#visualvm).
+
+### Delete Old Files
+
+Delete old files deployed to the roboRIO from the `deploy/` directory such as old pathplanner paths. Supposedly this cause our memory issues.
+
 ## VisualVM
 
 Follow the [WPILib docs](https://docs.wpilib.org/en/stable/docs/software/advanced-gradlerio/profiling-with-visualvm.html) but take note of the information below:
