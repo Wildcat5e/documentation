@@ -33,4 +33,10 @@ Follow the [WPILib docs](https://docs.wpilib.org/en/stable/docs/software/advance
 
 [Download VisualVM](https://visualvm.github.io/download.html) and put it somewhere that you'll continue to use it. On Linux, you can put a softlink to the executable in `/home/yourname/.local/bin/` and not worry about Java SDK path if the SDK is installed globally (like Debian/Ubuntu apt package manager). On Windows you'll have to specify the SDK path.
 
-[Windows VisualVM command](/programming/commands.md#command-for-debug-thing-on-driver-station) (only applies to driver station as of 2026)
+### Windows VisualVM command
+
+(only applies to driver station as of 2026)
+
+```sh
+."C:\Users\driver\Documents\visualvm_22\bin\visualvm" --jdkhome "C:\Users\Public\wpilib\2025\jdk"
+```

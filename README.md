@@ -6,9 +6,7 @@ This repo is for documentation.
 
 ### [Install and Setup](/programming/install-and-setup.md)
 
-### [Controllers Driving the Robot](/programming/controllers.md)
-
-### [Commands](/programming/commands.md)
+### [Controllers: Driving the Robot](/programming/controllers.md)
 
 ### [Field Information](/programming/field-info.md)
 
