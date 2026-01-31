@@ -12,8 +12,10 @@ This repo is for documentation.
 
 ### [Field Information](/programming/field-info.md)
 
+### [Math for Shooting While Moving](/programming/shooting-while-moving.pdf)
+
 <br><br><br>
 
 ###### License[^1]
 
-[^1]: This documentation should not have a license but feel free to read through it. Copyright belongs to members of Team 6705 who wrote it.
+[^1]: This documentation should not have a license, but feel free to read through it. Copyright is owned by the members of Team 6705 who wrote it.
