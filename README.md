@@ -14,6 +14,8 @@ This repo is for documentation.
 
 ### [Math for Shooting While Moving](/programming/shooting-while-moving.pdf)
 
+### [Math for RotateToHub FeedForward](/programming/rotatetohub-feedforward.pdf)
+
 <br><br><br>
 
 ###### License[^1]
