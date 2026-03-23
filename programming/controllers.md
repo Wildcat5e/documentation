@@ -28,7 +28,13 @@ Math.pow(rawInput, 3);
 
 ### Basic Usage
 
-Assuming you are passing in a Swerve Drive drivetrain, driving should already work. Keybind will require you rename the abstract methods, implement methods for each controller, and set the keybind you want in the specific controller. Then, update what those keybinds do in `bindingsSetup()`.
+Assuming you are passing in a Swerve Drive drivetrain, driving should already work.
+
+#### Changing Keybinds
+
+To change what a controller button does, make a change in that controller's file. To change what command is called by a keybind, make a change in `bindingsSetup()` in `Controller`.
+
+There are abstract methods in `Controller` that are for each action you want bound. These must be implemented in each specific controller (return a Trigger from the controller's button or return a value in the case of an axis). Then you can modify that trigger to call a command in `bindingsSetup()` in `Controller`.
 
 ### Controller Axis
 
