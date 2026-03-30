@@ -35,7 +35,10 @@ VisualVM gradle settings are in their docs. [VisualVM setup](#visualvm).
 
 ### Delete Old Files
 
-Delete old files deployed to the roboRIO from the `deploy/` directory such as old pathplanner paths. Supposedly this cause our memory issues.
+Delete old files deployed to the roboRIO from the `deploy/` directory such as old pathplanner paths. Supposedly, this caused our memory issues.
+
+Specifically, enable the `deleteOldFiles` boolean in the `build.gradle` file under `frcStaticFileDeploy()`.
+It's pretty stupid that this is not enabled by default.
 
 ## VisualVM
 
