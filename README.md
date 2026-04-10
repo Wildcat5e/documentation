@@ -10,6 +10,8 @@ This repo is for documentation.
 
 ### [Controllers: Driving the Robot](/programming/controllers.md)
 
+### [Motors](/programming/motors.md)
+
 ### [PhotonVision](/programming/photonvision.md)
 
 ### [Field Information](/programming/field-info.md)
