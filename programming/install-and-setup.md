@@ -8,6 +8,10 @@ Follow instuctions in the [WPILib docs](https://docs.wpilib.org/en/stable/docs/z
 
 If you're setting up WPILib on your personal Linux PC then you could use your existing VS Code or VS Codium installation. Just install WPILib and select everything and then select "Skip and don’t use VS Code." Then you'll need to install the WPILib extension from the extensions marketplace built into VS Code or manually install the extension (likely named `vscode-wpilib-XXXX-`) from the `/home/yourname/wpilib/year/vsCodeExtensions/` directory in the case of VS Codium. (DO NOT use the outdated VS Codium extension.)
 
+## Create a New Project
+
+[Read the docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java-python.html#create-java-cpp-project).
+
 ## Formatter and VS Code Settings
 
 ### Formatter
