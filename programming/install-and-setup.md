@@ -10,7 +10,9 @@ If you're setting up WPILib on your personal Linux PC then you could use your ex
 
 ## Create a New Project
 
-[Read the docs](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java-python.html#create-java-cpp-project).
+Select project type of Template, language of Java, and project base of `TimedRobot`.
+
+[Read the docs on Creating a New Project](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-4/creating-test-drivetrain-program-cpp-java-python.html#create-java-cpp-project).
 
 ## Formatter and VS Code Settings
 
