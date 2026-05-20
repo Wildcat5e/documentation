@@ -14,6 +14,8 @@ This repo is for documentation.
 
 ### [PhotonVision](/programming/photonvision.md)
 
+### [Updating Dependencies](/programming/updating-dependencies.md)
+
 ### [Field Information](/programming/field-info.md)
 
 ### [Math for Shooting While Moving](/programming/shooting-while-moving.pdf)
